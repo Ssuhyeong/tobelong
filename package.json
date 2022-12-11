@@ -1,0 +1,42 @@
+{
+  "name": "admarine_server",
+  "version": "1.0.0",
+  "description": "admarine_server rest server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "jwt",
+    "authentication",
+    "express",
+    "mysql"
+  ],
+  "author": "wkyoon",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.21.0",
+    "@nivo/core": "^0.79.0",
+    "@nivo/pie": "^0.79.1",
+    "array-to-tree": "^3.3.2",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "faker": "^5.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.1.0",
+    "numeral": "^2.0.6",
+    "request-ip": "^2.1.3",
+    "sequelize": "^6.5.0",
+    "sleep": "^6.3.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.6"
+  },
+  "repository": "https://github.com/wkyoon/"
+}
